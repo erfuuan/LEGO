@@ -56,3 +56,32 @@ import "fmt"
 // 	fmt.Println("goodBye")
 // }
 //?=====================================================================
+//array
+// func main(){
+// 	var numbers[5] int
+// 	numbers[0]=0
+// 	numbers[1]=1
+// 	numbers[2]=2
+// 	numbers[3]=3
+// 	numbers[4]=4
+// 	fmt.Println(numbers[1])
+// }
+//?=====================================================================
+//Slices
+// func main(){
+// 	var fruits []string 
+// 	fruits=append(fruits,"benana")
+// 	fruits=append(fruits,"apple")
+// 	fmt.Println(fruits[0])
+// 	fmt.Println(fruits)
+// }
+//?=====================================================================
+//Maps
+func main(){
+	var score map[string]int
+	score=make(map[string]int)
+	score["Erfan"]=1
+	score ["ali"]=2
+	score ["sara"]=3
+	fmt.Println(score["Erfan"])
+}
