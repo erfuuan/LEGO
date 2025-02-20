@@ -28,6 +28,15 @@ import "fmt"
 // 		fmt.Println("infinity")
 // 	}
 // }
+
+//-------------
+// func main(){
+// 	j := 0
+// 	for j < 5 {
+// 		fmt.Println(j) 
+// 		j++
+// 	}
+// }
 //?=====================================================================
 // func greet(name string){fmt.Println("hi :", name)}
 // func add (a int , b int) int{return a+b}
@@ -77,11 +86,23 @@ import "fmt"
 // }
 //?=====================================================================
 //Maps
-func main(){
-	var score map[string]int
-	score=make(map[string]int)
-	score["Erfan"]=1
-	score ["ali"]=2
-	score ["sara"]=3
-	fmt.Println(score["Erfan"])
-}
+// func main(){
+// 	var score map[string]int
+// 	score=make(map[string]int)
+// 	score["Erfan"]=1
+// 	score ["ali"]=2
+// 	score ["sara"]=3
+// 	fmt.Println(score["Erfan"])
+// }
+//?=====================================================================
+// func main(){
+// switch/case
+// switch day := "Monday"; day {
+// case "Monday":
+//     fmt.Println("Start of the week")
+// case "Friday":
+//     fmt.Println("End of the week")
+// default:
+//     fmt.Println("Midweek")
+// }
+//}

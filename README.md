@@ -1,4 +1,3 @@
-
 # lego (Learn Go)
 
 Welcome to the **lego** repository! This is a personal project aimed at learning and mastering the Go programming language. Here, you'll find various educational resources, code examples, and exercises to help you on your journey to becoming proficient in Go.
